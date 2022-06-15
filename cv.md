@@ -38,3 +38,8 @@ I've been working as QA Engineer for 3 years. Year ago I realized that it would 
 2. __EPAM__, 2018 - Introduction in Software testing
 3. __Coursera__, 2021 - Rest Assured
 4. __Udemy__ - Programming in Java (in process...)
+
+## Languages
++ English - Upper-Intermediate-
++ Russian
++ Belarussian
