@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <div class="header-photo">
+                    <img src="assets/img/2MmCNRfZWetc.jpg" alt="Hanna Boyarinova">
+                </div>
+            </div>
+            <div class="header-content">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="header-info">
+                    <h1>Hanna Boyarinova</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="container">
+            <div class="main-content-container">
+                <aside class="aside">
+                    <section class="section" id="contacts">
+                        <h2 class="section-title">Contacts</h2>
+                        <ul class="aside-list">
+                            <li class="aside-list-item">Discord: hannaboyarinova</li>
+                            <li class="aside-list-item">Email: hanna.boyarinova@gmail.com</li>
+                            <li class="aside-list-item">Telegram: +375447027940</li>
+                            <li class="aside-list-item">LinkedIn: <a href="https://www.linkedin.com/in/hannaboyarinova/"
+                                    target="_blank">Hanna Boyarinova</a></li>
+                        </ul>
+                    </section>
+                    <section class="section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <ul class="aside-list">
+                            <li class="aside-list-item">HTML</li>
+                            <li class="aside-list-item">CSS</li>
+                            <li class="aside-list-item">Git</li>
+                            <li class="aside-list-item">Java Core</li>
+                            <li class="aside-list-item">Junit 5</li>
+                            <li class="aside-list-item">Selenium</li>
+                            <li class="aside-list-item">Rest Assured</li>
+                        </ul>
+                    </section>
+                </aside>
+                <main class="main">
+                    <section class="section" id="about">
+                        <h2 class="section-title">About myself</h2>
+                        <p>I've been working as QA Engineer for 3 years. Year ago I realized that it would be great to
+                            develop my programming skills to become front-end developer or SDET. Knowledge of JS will
+                            help me in my current work and give me the opportunity to change a role. So, I'm here!</p>
+                    </section>
+                    <section class="section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <ol>
+                            <li class="list-item">Belarussian-Russian university, 2005-2010 - Engineer in Informational
+                                Technologies</li>
+                            <li class="list-item">EPAM, 2018 - Introduction in Software testing</li>
+                            <li class="list-item">Coursera, 2021 - Rest Assured</li>
+                            <li class="list-item">Udemy - Programming in Java (in process...)</li>
+                        </ol>
+                    </section>
+                    <section class="section" id="code">
+                        <h2 class="section-title">Code example</h2>
+                        <pre>
+<code>
+@Test
+public void verifyAddingProductToCartTest() {
+user.atHomePage.openHomePage();
+String productTitle = user.atHomePage.getProductTitle();
+user.atHomePage.addItemToCart();
+user.atHomePage.goToCart();
+user.atCartPage.shouldSeeAddedItemInCart(productTitle);
+                                }
+                            </code>
+                        </pre>
+                    </section>
+                    <section class="section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+                        <p class="main-item">Test project - <a href="https://github.com/hannaboyarinova/rsschool-cv"
+                                target="_blank">CV</a></p>
+                    </section>
+
+                    <section class="section" id="languages">
+                        <h2 class="section-title">Languages</h2>
+                        <ul>
+                            <li>English - Upper-Intermediate-</li>
+                            <li>Russian - native</li>
+                            <li>Belarussian - native</li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-item"><a href="https://github.com/hannaboyarinova">My github</a></div>
+                <div class="footer-item">2022</div>
+                <div><a href="https://rs.school/" title="RSSchool" target="_blank"><img
+                            src="assets/img/logo-rsschool3.png" alt="The Rolling scopes"></a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
